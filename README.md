@@ -1,4 +1,14 @@
-### About
+# MPXmda
+Multivariable Discriminant Analysis open-source approach for the phase picker "Manneken Pix (MPX)".
+
+**VERSION:** 2.5
+
+**AUTHOR:**  Matteo Bagagli - <matteo.bagagli@erdw.ethz.ch> - [GitHub](https://github.com/billy4all)
+
+**LICENSE:**  GNU-GPL v3
+
+--------------------
+## About
 This collection of scripts follow the general rules descripted in Diehl2009,
 in order to compute a Multivariate-Discriminant-Analysis (MDA) of the
 Fisher coefficients for the 'MannekenPix Autopicker Algoritmh'.
@@ -11,7 +21,7 @@ This scripts should run smoothly in any Unix-like OS, as long as all
 the necessary dependencies are correctly installed.
 Starting from version 2.0, the scripts can be ran also in OSX.
 
-### Dependencies
+## Dependencies
 * Python v2.7.* or higher
 * R
 * Rscript
@@ -22,7 +32,7 @@ To install it just type in an open R session:
 ```
 > install.package(DiscriMiner)
 ```
-### Getting Started
+## Getting Started
 In order to execute MDA, the entire 'scripts' folder must be copied in your shell `PATH`. Then at shell promp just type:
 
 ```
@@ -52,6 +62,3 @@ NB: The number of classes and the relative timing errors,
 - Diehl, Tobias and Edi Kissling (2009). "Users Guide for MPX Picking System". In: PhD thesis–Appendix.
 - Fisher, Ronald A (1936). "The use of multiple measurements in taxonomic problems". In: Annals of eugenics 7.2, pp. 179–18
 
-### Author
-Matteo Bagagli @ ETH-Zurich, 01-2017
-<matteo.bagagli@erdw.ethz.ch>
